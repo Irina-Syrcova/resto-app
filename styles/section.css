@@ -35,3 +35,74 @@
 	color: #FFFFFF;
 	background-color: #1C1C1C;
 }
+
+@media (max-width: 1439px) {
+	.section {
+		row-gap: 16px;
+		max-width: 1024px;
+		padding: 16px 32px;
+	}
+	
+	.section__title {
+		font-size: 30px;
+		line-height: 38px;
+	}
+	
+	.section__list {
+		column-gap: 16px;
+	}
+	
+	.section__button {
+		padding: 12px 22px;
+		border-radius: 16px;
+		font-size: 16px;
+		line-height: 22px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.section {
+		row-gap: 8px;
+		max-width: 768px;
+		padding: 8px 16px;
+	}
+	
+	.section__title {
+		font-size: 28px;
+		line-height: 36px;
+	}
+	
+	.section__list {
+		column-gap: 8px;
+	}
+	
+	.section__button {
+		padding: 10px 20px;
+		font-size: 14px;
+		line-height: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	.section {
+		row-gap: 4px;
+		max-width: 320px;
+		padding: 4px 8px;
+	}
+	
+	.section__title {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	
+	.section__list {
+		gap: 4px;
+		flex-wrap: wrap;
+	}
+	
+	.section__button {
+		padding: 8px 18px;
+		font-size: 12px;
+		line-height: 18px;
+	}
+}

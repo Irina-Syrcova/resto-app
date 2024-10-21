@@ -177,6 +177,8 @@
 
 .footer__pay-img {
 	display: block;
+	width: 100%;
+	width: 100%;
 }
 
 .footer__line {
@@ -199,4 +201,228 @@
 .footer__link:hover {
 	color: #FFFFFF;
 	transition: color 0.2s;
+}
+
+@media (max-width: 1439px) {
+	.footer {
+		margin-block-start: 16px;
+	}
+	
+	.footer__container {
+		row-gap: 16px;
+		max-width: 1024px;
+		padding: 16px 32px;
+	}
+	
+	.footer__address {
+		row-gap: 2px;
+	}
+	
+	.footer__address-tel {
+		font-size: 22px;
+		line-height: 30px;
+	}
+	
+	.footer__address-text {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	
+	.footer__social {
+		column-gap: 4px;
+	}
+	
+	.footer__social-link {
+		width: 38px;
+		height: 38px;
+		padding: 6px;
+	}
+	
+	.footer__logo-img {
+		width: 250px;
+		height: 22px;
+	}
+	
+	.footer__nav-list {
+		column-gap: 16px;
+	}
+	
+	.footer__nav-link {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	
+	.footer__download {
+		column-gap: 4px;
+	}
+	
+	.footer__download-link {
+		width: 120px;
+		height: 30px;
+	}
+	
+	.footer__copyright {
+		font-size: 10px;
+		line-height: 16px;
+	}
+	
+	.footer__rules-list {
+		column-gap: 8px;
+	}
+	
+	.footer__rules-link {
+		font-size: 10px;
+		line-height: 16px;
+	}
+	
+	.footer__pay {
+		column-gap: 4px;
+	}
+	
+	.footer__text {
+		font-size: 12px;
+		line-height: 18px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.footer {
+		margin-block-start: 8px;
+	}
+	
+	.footer__container {
+		row-gap: 8px;
+		max-width: 768px;
+		padding: 8px 16px;
+	}
+	
+	.footer__address-tel {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	
+	.footer__address-text {
+		font-size: 10px;
+		line-height: 16px;
+	}
+	
+	.footer__social {
+		column-gap: 2px;
+	}
+	
+	.footer__social-link {
+		width: 30px;
+		height: 30px;
+	}
+	
+	.footer__logo-img {
+		width: 200px;
+		height: 20px;
+	}
+	
+	.footer__nav-list {
+		column-gap: 8px;
+	}
+	
+	.footer__nav-link {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	
+	.footer__download {
+		column-gap: 2px;
+	}
+	
+	.footer__download-link {
+		width: 80px;
+		height: 20px;
+	}
+	
+	.footer__copyright {
+		font-size: 8px;
+		line-height: 14px;
+	}
+	
+	.footer__rules-list {
+		column-gap: 4px;
+	}
+	
+	.footer__rules-link {
+		font-size: 8px;
+		line-height: 14px;
+	}
+	
+	.footer__pay {
+		column-gap: 2px;
+	}
+	
+	.footer__text {
+		font-size: 10px;
+		line-height: 16px;
+	}
+}
+
+@media (max-width: 767px) {
+	.footer__container {
+		row-gap: 4px;
+		max-width: 320px;
+		padding: 4px 8px;
+	}
+	
+	.footer__address-tel {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	
+	.footer__address-text {
+		font-size: 10px;
+		line-height: 16px;
+	}
+	
+	.footer__logo-img {
+		width: 100px;
+		height: 15px;
+	}
+
+	.footer__nav-list {
+		flex-direction: column;
+	}
+
+	.footer__nav-item {
+		text-align: center;
+	}
+	
+	.footer__nav-link {
+		font-size: 10px;
+		line-height: 12px;
+	}
+	
+	.footer__download {
+		gap: 4px;
+		flex-direction: column;
+	}
+	
+	.footer__copyright {
+		font-size: 8px;
+		line-height: 14px;
+	}
+	
+	.footer__rules-list {
+		flex-direction: column;
+	}
+	
+	.footer__rules-link {
+		font-size: 8px;
+		line-height: 10px;
+	}
+	
+	.footer__pay {
+		flex-direction: column;
+		gap: 4px;
+	}
+	
+	.footer__text {
+		font-size: 10px;
+		line-height: 16px;
+	}
 }

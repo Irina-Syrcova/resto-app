@@ -20,8 +20,6 @@
 
 .header__bubble-text {
 	font-size: 18px;
-	font-weight: 600;
-	line-height: 24px;
 	color: #FFFFFF;
 }
 
@@ -145,4 +143,181 @@
 .header__contacts-img {
 	display: block;
 	transition: fill 0.2s;
+}
+
+@media (max-width: 1439px) {
+	.header {
+		line-height: 20px;
+	}
+	
+	.header__bubble {
+		column-gap: 10px;
+		padding-block: 10px;
+	}
+	
+	.header__bubble-text {
+		font-size: 16px;
+	}
+	
+	.header__bubble-img {
+		width: 22px;
+		height: 22px;
+	}
+	
+	.header__container {
+		max-width: 1024px;
+		padding: 8px 32px;
+	}
+	
+	.header__logo-img {
+		width: 120px;
+		height: 20px;
+	}
+	
+	.header__nav {
+		font-size: 14px;
+	}
+	
+	.header__nav-list {
+		column-gap: 20px;
+	}
+	
+	.header__right {
+		column-gap: 32px;
+	}
+	
+	.header__contacts-tel {
+		font-size: 16px;
+	}
+	
+	.header__contacts-text {
+		font-size: 11px;
+		line-height: 14px;
+	}
+	
+	.header__contacts-buttons {
+		column-gap: 8px;
+	}
+	
+	.header__contacts-button {
+		width: 54px;
+    height: 46px;
+    border-radius: 14px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.header {
+		line-height: 18px;
+	}
+	
+	.header__bubble {
+		column-gap: 8px;
+		padding-block: 8px;
+	}
+	
+	.header__bubble-text {
+		font-size: 14px;
+	}
+	
+	.header__bubble-img {
+		width: 20px;
+		height: 20px;
+	}
+	
+	.header__container {
+		max-width: 768px;
+		padding: 4px 16px;
+	}
+	
+	.header__logo-img {
+		width: 100px;
+	}
+	
+	.header__nav {
+		font-size: 12px;
+	}
+	
+	.header__nav-list {
+		column-gap: 16px;
+	}
+	
+	.header__right {
+		column-gap: 16px;
+	}
+	
+	.header__contacts-tel {
+		font-size: 14px;
+	}
+	
+	.header__contacts-text {
+		font-size: 10px;
+		line-height: 12px;
+	}
+	
+	.header__contacts-buttons {
+		column-gap: 4px;
+	}
+	
+	.header__contacts-button {
+		width: 40px;
+    height: 36px;
+	}
+}
+
+@media (max-width: 767px) {
+	.header {
+		line-height: 16px;
+	}
+	
+	.header__bubble {
+		column-gap: 4px;
+		padding-block: 4px;
+	}
+	
+	.header__bubble-text {
+		font-size: 12px;
+	}
+	
+	.header__bubble-img {
+		width: 16px;
+		height: 16px;
+	}
+	
+	.header__container {
+		max-width: 320px;
+		padding: 4px 8px;
+		flex-wrap: wrap;
+	}
+	
+	.header__logo-img {
+		width: 50px;
+	}
+	
+	.header__nav {
+		font-size: 10px;
+	}
+	
+	.header__nav-list {
+		column-gap: 8px;
+	}
+	
+	.header__right {
+		justify-content: space-between;
+    width: 100%;
+	}
+	
+	.header__contacts-tel {
+		font-size: 10px;
+	}
+	
+	.header__contacts-text {
+		font-size: 6px;
+		line-height: 8px;
+	}
+	
+	.header__contacts-button {
+		width: 30px;
+    height: 26px;
+	}
 }

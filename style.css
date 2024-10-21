@@ -19,7 +19,25 @@ html {
 	scroll-behavior: smooth;
 }
 
-body{
+body {
 	min-width: 1440px;
 	font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 1439px) {
+	body {
+		min-width: 1024px;
+	}
+}
+
+@media (max-width: 1023px) {
+	body {
+		min-width: 768px;
+	}
+}
+
+@media (max-width: 767px) {
+	body {
+		min-width: 320px;
+	}
 }

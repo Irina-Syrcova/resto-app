@@ -3,6 +3,8 @@
 	height: 304px;
 	list-style: none;
 	border-radius: 15px;
+	background-position: center;
+	background-size: cover;
 }
 
 .menu__card-link {
@@ -35,4 +37,48 @@
 	line-height: 32px;
 	font-weight: 600;
 	color: #FFFFFF;
+}
+
+@media (max-width: 1439px) {
+	.menu__card {
+		width: 228px;
+		height: 228px;
+	}
+	
+	.menu__card-link {
+		padding: 8px;
+	}
+	
+	.menu__card-title {
+		font-size: 22px;
+		line-height: 30px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.menu__card {
+		width: 178px;
+		height: 178px;
+	}
+	
+	.menu__card-link {
+		padding: 4px;
+	}
+	
+	.menu__card-title {
+		font-size: 20px;
+		line-height: 28px;
+	}
+}
+
+@media (max-width: 767px) {
+	.menu__card {
+		width: 150px;
+		height: 150px;
+	}
+	
+	.menu__card-title {
+		font-size: 14px;
+		line-height: 22px;
+	}
 }

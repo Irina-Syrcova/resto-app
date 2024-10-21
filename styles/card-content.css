@@ -62,3 +62,59 @@
 .card-content--pizza {
 	background-image: linear-gradient(rgb(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.5) 100%), url(../images/establishments/bg-pizza.jpg);
 }
+
+@media (max-width: 1439px) {
+	.card-content {
+		width: 472px;
+		height: 270px;
+	}
+	
+	.card-content__link {
+		padding: 16px;
+	}
+	
+	.card-content__title {
+		font-size: 28px;
+		line-height: 36px;
+	}
+	
+	.card-content__tags {
+		column-gap: 4px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.card-content {
+		width: 364px;
+		height: 206px;
+	}
+	
+	.card-content__link {
+		padding: 8px;
+	}
+	
+	.card-content__title {
+		font-size: 22px;
+		line-height: 30px;
+	}
+	
+	.card-content__tags {
+		column-gap: 2px;
+	}
+}
+
+@media (max-width: 767px) {
+	.card-content {
+		width: 304px;
+		height: 172px;
+	}
+	
+	.card-content__link {
+		padding: 4px;
+	}
+	
+	.card-content__title {
+		font-size: 19px;
+		line-height: 27px;
+	}
+}

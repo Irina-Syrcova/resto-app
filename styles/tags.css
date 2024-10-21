@@ -15,3 +15,19 @@
 .tag--close {
  	background-color: #727272;
 }
+
+@media (max-width: 1439px) {
+	.tag {
+		padding: 6px;
+		font-size: 12px;
+		line-height: 18px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.tag {
+		padding: 4px;
+		font-size: 10px;
+		line-height: 16px;
+	}
+}
