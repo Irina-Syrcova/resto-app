@@ -1,0 +1,25 @@
+.badge {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 36px;
+	height: 36px;
+	padding: 8px;
+	border-radius: 8px;
+}
+
+.badge__img {
+	display: block;
+}
+
+.badge--vegan {
+	background-color: #1DAA0F;
+}
+
+.badge--sharp {
+	background-color: #FC7D04;
+}
+
+.badge--seafood {
+	background-color: #0094E4;
+}

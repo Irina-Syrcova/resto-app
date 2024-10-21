@@ -1,0 +1,202 @@
+.footer {
+  background-color: #1C1C1C;
+	margin-block-start: 32px;
+}
+
+.footer__container {
+	display: flex;
+	flex-direction: column;
+	row-gap: 32px;
+	max-width: 1440px;
+	padding: 32px 64px;
+	margin: 0 auto;
+}
+
+.footer__row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__address {
+	display: flex;
+	flex-direction: column;
+	row-gap: 4px;
+	font-style: normal;
+}
+
+.footer__address-tel {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 32px;
+	color: #F4F4F4;
+	text-decoration: none;
+	transition: color 0.2s;
+}
+
+.footer__address-tel:hover {
+	color: #A6A6A6;
+	transition: color 0.2s;
+}
+
+.footer__address-text {
+	font-size: 14px;
+	line-height: 20px;
+	color: #A6A6A6;
+}
+
+.footer__social {
+	display: flex;
+	column-gap: 8px;
+}
+
+.footer__social-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	padding: 8px;
+	background-color: #393939;
+	border-radius: 8px;
+}
+
+.footer__social-link:hover {
+	.footer__link-img {
+		fill: #FFFFFF;
+		transition: fill 0.2s;
+	}
+}
+
+.footer__link-img {
+	display: block;
+	transition: fill 0.2s;
+}
+
+.footer__logo-img {
+	display: block;
+}
+
+.footer__nav-list {
+	display: flex;
+	column-gap: 32px;
+	list-style: none;
+}
+
+.footer__nav-link {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+	color: #F4F4F4;
+	text-decoration: none;
+	transition: color 0.2s;
+}
+
+.footer__nav-link:hover {
+	color: #A6A6A6;
+	transition: color 0.2s;
+}
+
+.footer__download {
+	display: flex;
+	column-gap: 8px;
+}
+
+.footer__download-link {
+	width: 138px;
+	height: 40px;
+	text-decoration: none;
+}
+
+.footer__download-link:hover .footer__download-img--appstore {
+	fill: #FFFFFF;
+	transition: 0.2s;
+}
+
+.footer__download-link:hover .footer__download-img--googleplay {
+	fill: #F4F4F4;
+	fill-opacity: 1;
+	transition: 0.2s;
+}
+
+.footer__download-img {
+	display: block;
+}
+
+.footer__download-img--appstore {
+	transition: 0.2s;
+}
+
+.footer__download-img--googleplay {
+	transition: 0.2s;
+}
+
+.footer__copyright {
+	font-size: 14px;
+	line-height: 20px;
+	color: #CCCCCC;
+}
+
+.footer__rules-list {
+	display: flex;
+	column-gap: 16px;
+	list-style: none;
+}
+
+.footer__rules-link {
+	font-size: 14px;
+	line-height: 20px;
+	color: #A6A6A6;
+	text-decoration: none;
+	transition: color 0.2s;
+}
+
+.footer__rules-link:hover {
+	color: #FFFFFF;
+	transition: color 0.2s;
+}
+
+.footer__pay {
+	display: flex;
+	column-gap: 8px;
+}
+
+.footer__pay-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 48px;
+	height: 29px;
+	background-color: #393939;
+	border-radius: 4px;
+}
+
+.footer__pay-link:hover .footer__pay-img {
+	fill: #FFFFFF;
+}
+
+.footer__pay-img {
+	display: block;
+}
+
+.footer__line {
+	height: 1px;
+	background-color: #393939;
+}
+
+.footer__text {
+	margin: 0 auto;
+	font-size: 14px;
+	line-height: 20px;
+	color: #A6A6A6;
+}
+
+.footer__link {
+	color: #A6A6A6;
+	transition: color 0.2s;
+}
+
+.footer__link:hover {
+	color: #FFFFFF;
+	transition: color 0.2s;
+}

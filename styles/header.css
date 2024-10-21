@@ -1,0 +1,148 @@
+.header {
+	background-image: linear-gradient(90deg, #FEDD2C, #F9C201);
+	line-height: 24px;
+	font-weight: 600;
+	color: #555555;
+}
+
+.header__bubble {
+	display: flex;
+	column-gap: 12px;
+	justify-content: center;
+	align-items: center;
+	padding-block: 12px;
+	background-color: #1C1C1C;
+}
+
+.header__bubble--closed {
+	display: none;
+}
+
+.header__bubble-text {
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+
+.header__bubble-button {
+	border: none;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+.header__bubble-img {
+	display: block;
+}
+
+.header__container {
+	display: flex;
+	max-width: 1440px;
+	padding: 16px 64px;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo-img {
+	display: block;
+}
+
+.header__nav {
+	font-size: 16px;
+}
+
+.header__nav-list {
+	display: flex;
+	list-style: none;
+	column-gap: 24px;
+}
+
+.header__nav-link {
+	color: #555555;
+	text-decoration: none;
+	transition: color 0.2s;
+}
+
+.header__nav-link:hover {
+	color: #1C1C1C;
+	transition: color 0.2s;
+}
+
+.header__right {
+	display: flex;
+	column-gap: 64px;
+	align-items: center;
+}
+
+.header__contacts {
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	font-style: normal;
+}
+
+.header__contacts-tel {
+	text-decoration: none;
+	color: #555555;
+	font-size: 18px;
+	transition: color 0.2s;
+}
+
+.header__contacts-tel:hover {
+	color: #1C1C1C;
+	transition: color 0.2s;
+}
+
+.header__contacts-text {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+}
+
+.header__contacts-buttons {
+	display: flex;
+	column-gap: 16px;
+}
+
+.header__contacts-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 56px;
+  height: 48px;
+	border-radius: 16px;
+	border: 2px solid #1C1C1C;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.header__contacts-button--login {
+	background-color: transparent;
+}
+
+.header__contacts-button--login:hover {
+	border: 2px solid #FFFFFF;
+}
+
+.header__contacts-button--login:hover .header__contacts-img{
+	fill: #FFFFFF;
+}
+
+.header__contacts-button--basket {
+	background-color: #1C1C1C;
+}
+
+.header__contacts-button--basket:hover {
+	background-color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+}
+
+.header__contacts-button--basket:hover .header__contacts-img{
+	fill: #1C1C1C;
+}
+
+.header__contacts-img {
+	display: block;
+	transition: fill 0.2s;
+}

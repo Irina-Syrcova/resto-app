@@ -1,0 +1,64 @@
+.card-content {
+	width: 640px;
+	height: 360px;
+	list-style: none;
+	border-radius: 16px;
+	background-size: cover;
+	background-position: center;
+}
+
+.card-content__link {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	padding: 32px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: 600;
+}
+
+.card-content__info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card-content__title {
+	font-size: 32px;
+	line-height: 40px;
+}
+
+.card-content__tags {
+	display: flex;
+	column-gap: 8px;
+}
+
+/* Promotions */
+.card-content--platina {
+	background-image: linear-gradient(rgb(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%), url(../images/stocks/bg-platina.jpg);
+}
+
+.card-content--sale {
+	background-image: linear-gradient(rgb(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%), url(../images/stocks/bg-sale.jpg);
+}
+
+/* Events */
+
+.card-content--stand-up {
+	background-image: linear-gradient(rgb(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%), url(../images/events/bg-stand-up.jpg);
+}
+
+.card-content--birthday {
+	background-image: linear-gradient(rgb(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%), url(../images/events/bg-birthday.jpg);
+}
+
+/* Establishments */
+
+.card-content--cafe {
+	background-image: linear-gradient(rgb(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%), url(../images/establishments/bg-cafe.jpg);
+}
+
+.card-content--pizza {
+	background-image: linear-gradient(rgb(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.5) 100%), url(../images/establishments/bg-pizza.jpg);
+}
