@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+	<script defer src="./script.js"></script>
+  <title>Resto App</title>
+</head>
+<body>
+  <header class="header">
+		<div class="header__bubble">
+			<p class="header__bubble-text">Бесплатная доставка от 1 000 ₽</p>
+			<button class="header__bubble-button">
+				<img class="header__bubble-img" src="./images/header/close.svg" alt="Закрыть">
+			</button>
+		</div>
+		<div class="header__container">
+			<a href="index.html" class="header__logo">
+				<img src="./images/header/logo.svg" alt="Логотип Resto App" class="header__logo-img">
+			</a>
+			<nav class="header__nav">
+				<ul class="header__nav-list">
+					<li class="header__nav-item"><a class="header__nav-link" href="#menu">Меню</a></li>
+					<li class="header__nav-item"><a class="header__nav-link" href="#promotions">Акции</a></li>
+					<li class="header__nav-item"><a class="header__nav-link" href="index.html">О нас</a></li>
+					<li class="header__nav-item"><a class="header__nav-link" href="#events">События</a></li>
+					<li class="header__nav-item"><a class="header__nav-link" href="index.html">Зоны доставки</a></li>
+				</ul>
+			</nav>
+			<div class="header__right">
+				<address class="header__contacts">
+					<a href="tel:+01234567890" class="header__contacts-tel">+0 (123) 456 78-90</a>
+					<span class="header__contacts-text">Прием заказов с 10:00 до 22:40</span>
+				</address>
+				<div class="header__contacts-buttons">
+					<button class="header__contacts-button header__contacts-button--login">
+						<svg class="header__contacts-img" width="16" height="20" viewBox="0 0 16 20" fill="#1C1C1C" xmlns="http://www.w3.org/2000/svg">
+							<use href="./images/header/login.svg#login"></use>
+						</svg>
+					</button>
+					<button class="header__contacts-button header__contacts-button--basket">
+						<svg class="header__contacts-img" width="18" height="18" viewBox="0 0 18 18" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
+							<use href="./images/header/basket.svg#basket"></use>	
+						</svg>
+					</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<section id="menu" class="section menu">
+			<h2 class="section__title">Меню</h2>
+			<ul class="section__list">
+				<li class="menu__card menu__card--pizza">
+					<a href="index.html" class="menu__card-link">
+						<h3 class="menu__card-title">Пицца</h3>
+					</a>
+				</li>
+				<li class="menu__card menu__card--soup">
+					<a href="index.html" class="menu__card-link">
+						<h3 class="menu__card-title">Супы</h3>
+					</a>
+				</li>
+				<li class="menu__card menu__card--hot">
+					<a href="index.html" class="menu__card-link">
+						<h3 class="menu__card-title">Горячие блюда</h3>
+					</a>
+				</li>
+				<li class="menu__card menu__card--salad">
+					<a href="index.html" class="menu__card-link">
+						<h3 class="menu__card-title">Салаты</h3>
+					</a>
+				</li>
+			</ul>
+		</section>
+		<section id="new" class="section new">
+			<h2 class="section__title">Новинки</h2>
+			<ul class="section__list">
+				<li class="product">
+					<a href="index.html" class="product__link">
+						<img class="product__image" src="./images/new/egg-soup.jpg" alt="Китайский яичный суп">
+						<div class="product__badges">
+							<div class="badge badge--vegan">
+								<img class="badge__img" src="./images/badges/vegan.svg" alt="Веганское">
+							</div>
+						</div>
+						<div class="product__desc">
+							<h4 class="product__title">Китайский яичный суп</h4>
+							<p class="product__text">Традиционный китайский суп с яйцом и томатами черри</p>
+						</div>
+					</a>
+					<button class="product__button">350 ₽</button>
+				</li>
+				<li class="product">
+					<a href="index.html" class="product__link">
+						<img class="product__image" src="./images/new/paella.jpg" alt="Паэлья">
+						<div class="product__badges">
+							<div class="badge badge--vegan">
+								<img class="badge__img" src="./images/badges/vegan.svg" alt="Веганское">
+							</div>
+						</div>
+						<div class="product__desc">
+							<h4 class="product__title">Паэлья</h4>
+							<p class="product__text">Традиционное испанское блюдо — рис, колбаски чоризо, куриное бедро, кальмар, кукуруза, горошек, специи</p>
+						</div>
+					</a>
+					<button class="product__button">660 ₽</button>
+				</li>
+				<li class="product">
+					<a href="index.html" class="product__link">
+						<img class="product__image" src="./images/new/beef.jpg" alt="Биф Бургеньон">
+						<div class="product__desc">
+							<h4 class="product__title">Биф Бургеньон</h4>
+							<p class="product__text">Блюдо французской кухни — тушёные кусочки говядины с картофелем и болгарским перцем</p>
+						</div>
+					</a>
+					<button class="product__button">630 ₽</button>
+				</li>
+				<li class="product">
+					<a href="index.html" class="product__link">
+						<img class="product__image" src="./images/new/broken-cucumbers.jpg" alt="Битые огурцы">
+						<div class="product__badges">
+							<div class="badge badge--vegan">
+								<img class="badge__img" src="./images/badges/vegan.svg" alt="Веганское">
+							</div>
+						</div>
+						<div class="product__desc">
+							<h4 class="product__title">Битые огурцы</h4>
+							<p class="product__text">Салат из свежих битых огурцов с уйгурским соусом, кешью и кунжутом</p>
+						</div>
+					</a>
+					<button class="product__button">320 ₽</button>
+				</li>
+			</ul>
+		</section>
+		<section id="popular" class="section popular">
+			<h2 class="section__title">Популярное</h2>
+			<ul class="section__list">
+				<li class="product">
+					<a href="index.html" class="product__link">
+						<img class="product__image" src="./images/popular/pepperoni.jpg" alt="Пепперони">
+						<div class="product__badges">
+							<div class="badge badge--vegan">
+								<img class="badge__img" src="./images/badges/vegan.svg" alt="Веганское">
+							</div>
+						</div>
+						<div class="product__desc">
+							<h4 class="product__title">Пепперони</h4>
+							<p class="product__text">Просто и вкусно - томатная основа маринара, колбаски пепперони и сыр моцарелла</p>
+						</div>
+					</a>
+					<button class="product__button">660 ₽</button>
+				</li>
+				<li class="product">
+					<a href="index.html" class="product__link">
+						<img class="product__image" src="./images/popular/gorgonzola-pear.jpg" alt="Груша Горгонзола">
+						<div class="product__badges">
+							<div class="badge badge--vegan">
+								<img class="badge__img" src="./images/badges/vegan.svg" alt="Веганское">
+							</div>
+						</div>
+						<div class="product__desc">
+							<h4 class="product__title">Груша Горгонзола</h4>
+							<p class="product__text">Нежная пицца на основе сливочного соуса с сыром горгондзола, грушей, медом и кедровыми орехами</p>
+						</div>
+					</a>
+					<button class="product__button">780 ₽</button>
+				</li>
+				<li class="product">
+					<a href="index.html" class="product__link">
+						<img class="product__image" src="./images/popular/fo-bo.jpg" alt="Фо Бо">
+						<div class="product__desc">
+							<h4 class="product__title">Фо Бо</h4>
+							<p class="product__text">Вьетнамский суп с рисовой лапшой, в котором используется говядина, свежая зелень и ростки сои. Подают с добавками, такими как мята, долька лайма, острый соус шрирача, азиатский уксус и лаоганма</p>
+						</div>
+					</a>
+					<button class="product__button">490 ₽</button>
+				</li>
+				<li class="product">
+					<a href="index.html" class="product__link">
+						<img class="product__image" src="./images/popular/tom-yam.jpg" alt="Том Ям с морепродуктами">
+						<div class="product__badges">
+							<div class="badge badge--sharp">
+								<img class="badge__img" src="./images/badges/sharp.svg" alt="Острое">
+							</div>
+							<div class="badge badge--seafood">
+								<img class="badge__img" src="./images/badges/seafood.svg" alt="Морепродукты">
+							</div>
+						</div>
+						<div class="product__desc">
+							<h4 class="product__title">Том Ям с морепродуктами</h4>
+							<p class="product__text">Просто и вкусно - томатная основа маринара, колбаски пепперони и сыр моцарелла</p>
+						</div>
+					</a>
+					<button class="product__button">590 ₽</button>
+				</li>
+			</ul>
+		</section>
+		<section id="promotions" class="section promotions">
+			<h2 class="section__title">Акции</h2>
+			<ul class="section__list">
+				<li class="card-content card-content--platina">
+					<a class="card-content__link" target="_blank" href="index.html">
+						<div class="card-content__info">
+							<div class="card-content__tags">
+								<div class="tag">Скидка 10%</div>
+							</div>
+						</div>
+						<h3 class="card-content__title">Статус «Platina» привилегированным клиентам</h3>
+					</a>
+				</li>
+				<li class="card-content card-content--sale">
+					<a class="card-content__link" target="_blank" href="index.html">
+						<div class="card-content__info">
+							<div class="card-content__tags">
+								<div class="tag">Скидка 5%</div>
+							</div>
+						</div>
+						<h3 class="card-content__title">Скидка на все покупки при регистрации</h3>
+					</a>
+				</li>
+			</ul>
+		</section>
+		<section id="events" class="section events">
+			<h2 class="section__title">События</h2>
+			<ul class="section__list">
+				<li class="card-content card-content--stand-up">
+					<a class="card-content__link" target="_blank" href="index.html">
+						<div class="card-content__info">
+							<div class="card-content__tags">
+								<div class="tag">27 января</div>
+								<div class="tag">В 21:00</div>
+							</div>
+							<div class="tag tag--available">Скоро</div>
+						</div>
+						<h3 class="card-content__title">Первый в этом году Stand-Up</h3>
+					</a>
+				</li>
+				<li class="card-content card-content--birthday">
+					<a class="card-content__link" target="_blank" href="index.html">
+						<div class="card-content__info">
+							<div class="card-content__tags">
+								<div class="tag">21 января</div>
+								<div class="tag">Скидка 20%</div>
+							</div>
+							<div class="tag tag--close">Завершено</div>
+						</div>
+						<h3 class="card-content__title">День рождения в «Гастроцех»</h3>
+					</a>
+				</li>
+			</ul>
+			<button class="section__button">Все события</button>
+		</section>
+		<section id="establishments" class="section establishments">
+			<h2 class="section__title">Наши заведения</h2>
+			<ul class="section__list">
+				<li class="card-content card-content--cafe">
+					<a class="card-content__link" target="_blank" href="index.html">
+						<div class="card-content__info">
+							<div class="card-content__tags">
+								<div class="tag">Открыт еще 1 ч 20 мин</div>
+								<div class="tag">с 10:00 до 23:00</div>
+							</div>
+							<div class="tag tag--available">Открыт</div>
+						</div>
+						<h3 class="card-content__title">Фудкорт — Кафе «Гастроцех»</h3>
+					</a>
+				</li>
+				<li class="card-content card-content--pizza">
+					<a class="card-content__link" target="_blank" href="index.html">
+						<div class="card-content__info">
+							<div class="card-content__tags">
+								<div class="tag">Открыт еще 1 ч 20 мин</div>
+								<div class="tag">с 10:00 до 23:00</div>
+							</div>
+							<div class="tag tag--available">Открыт</div>
+						</div>
+						<h3 class="card-content__title">«Гастроцех» Пицца</h3>
+					</a>
+				</li>
+			</ul>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="footer__container">
+			<div class="footer__row">
+				<address class="footer__address">
+					<a href="tel:+01234567890" class="footer__address-tel">+0 (123) 456 78-90</a>
+					<span class="footer__address-text">Прием заказов с 10:00 до 22:40</span>
+				</address>
+				<div class="footer__social">
+					<a href="index.html" target="_blank" class="footer__social-link">
+						<svg class="footer__link-img" width="18" height="15" viewBox="0 0 18 15" fill="#A6A6A6" xmlns="http://www.w3.org/2000/svg">
+							<use href="./images/social/telegram.svg#telegram"></use>
+						</svg>
+					</a>
+					<a href="index.html" target="_blank" class="footer__social-link">
+						<svg class="footer__link-img" width="20" height="12" viewBox="0 0 20 12" fill="#A6A6A6" xmlns="http://www.w3.org/2000/svg">
+							<use href="./images/social/vk.svg#vk"></use>
+						</svg>
+					</a>
+					<a href="index.html" target="_blank" class="footer__social-link">
+						<svg class="footer__link-img" width="19" height="20" viewBox="0 0 19 20" fill="#A6A6A6" xmlns="http://www.w3.org/2000/svg">
+							<use href="./images/social/whatsapp.svg#whatsapp"></use>
+						</svg>
+					</a>
+				</div>
+			</div>
+			<div class="footer__row">
+				<a href="index.html" class="footer__logo">
+					<img src="./images/footer/logo.svg" alt="Логотип Resto App" class="footer__logo-img">
+				</a>
+				<nav class="footer__nav">
+					<ul class="footer__nav-list">
+						<li class="footer__nav-item"><a class="footer__nav-link" href="#menu">Меню</a></li>
+						<li class="footer__nav-item"><a class="footer__nav-link" href="#promotions">Акции</a></li>
+						<li class="footer__nav-item"><a class="footer__nav-link" href="index.html">О нас</a></li>
+						<li class="footer__nav-item"><a class="footer__nav-link" href="#events">События</a></li>
+						<li class="footer__nav-item"><a class="footer__nav-link" href="index.html">Зоны доставки</a></li>
+					</ul>
+				</nav>
+				<div class="footer__download">
+					<a href="index.html" target="_blank" class="footer__download-link">
+						<svg class="footer__download-img--appstore" width="138" height="40" viewBox="0 0 138 40" fill="#A6A6A6" xmlns="http://www.w3.org/2000/svg">
+							<use href="./images/footer/appstore.svg#appstore"></use>
+						</svg>
+					</a>
+					<a href="index.html" target="_blank" class="footer__download-link">
+						<svg class="footer__download-img--googleplay" width="138" height="40" viewBox="0 0 138 40" fill="#A6A6A6" fill-opacity="0.5" xmlns="http://www.w3.org/2000/svg">
+							<use href="./images/footer/googleplay.svg#googleplay"></use>
+						</svg>
+					</a>
+				</div>
+			</div>
+			<div class="footer__row">
+				<p class="footer__copyright">Copyright 2024</p>
+				<ul class="footer__rules-list">
+					<li class="footer__rules-item">
+						<a href="index.html" class="footer__rules-link">Условия оплаты, получения и возврата</a>
+					</li>
+					<li class="footer__rules-item">
+						<a href="index.html" class="footer__rules-link">Политика обработки персональных данных</a>
+					</li>
+					<li class="footer__rules-item">
+						<a href="index.html" class="footer__rules-link">Согласие на обработку персональных данных</a>
+					</li>
+				</ul>
+				<div class="footer__pay">
+					<a href="#!" class="footer__pay-link">
+						<svg class="footer__pay-img" width="32" height="21" viewBox="0 0 32 21" fill="#A6A6A6" xmlns="http://www.w3.org/2000/svg">
+							<use href="./images/pay/visa.svg#visa"></use>
+						</svg>
+					</a>
+					<a href="#!" class="footer__pay-link">
+						<svg class="footer__pay-img" width="22" height="15" viewBox="0 0 22 15" fill="#A6A6A6" xmlns="http://www.w3.org/2000/svg">
+							<use href="./images/pay/mastercard.svg#mastercard"></use>	
+						</svg>
+					</a>
+					<a href="#!" class="footer__pay-link">
+						<svg class="footer__pay-img" width="32" height="10" viewBox="0 0 32 10" fill="#A6A6A6" xmlns="http://www.w3.org/2000/svg">
+							<use href="./images/pay/mir.svg#mir"></use>
+						</svg>
+					</a>
+				</div>
+			</div>
+			<span class="footer__line"></span>
+			<p class="footer__text">Проект выполнен в рамках стажировки
+				<a class="footer__link" href="https://preax.ru" target="_blank"> PREAX</a>
+			</p>
+		</div>
+	</footer>
+</body>
+</html>
